@@ -3,7 +3,7 @@ var BSON = mongo.BSONPure;
 // get mongo client
 var mongoClient = mongo.MongoClient;
 var mongoDb;
-mongoClient.connect("mongodb://Nath2000:ajayi111@ds157799.mlab.com:57799/taxi_db", function(err, db) {
+mongoClient.connect("mongodb://root:root@ds157799.mlab.com:57799/taxi_db", function(err, db) {
 if(!err) {
   console.log("We are connected");
   mongoDb = db;
